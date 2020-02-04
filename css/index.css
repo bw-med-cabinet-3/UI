@@ -136,6 +136,19 @@ html,
 body {
   font-family: 'Roboto';
 }
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
 header {
   width: 100%;
   background-color: #044A53;
@@ -164,4 +177,22 @@ header img {
 .navigation .div {
   width: 40%;
   flex-direction: column;
+}
+footer {
+  width: 100%;
+  background-color: #044A53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7%;
+}
+footer h2 {
+  text-align: start;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 1%;
+}
+footer img {
+  height: 45px;
 }
