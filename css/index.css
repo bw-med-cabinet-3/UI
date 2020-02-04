@@ -240,15 +240,32 @@ footer img {
   width: 30%;
   text-align: center;
 }
+h2 {
+  font-size: 4em;
+  text-align: center;
+  padding: 2%;
+}
 #team {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
   border: 5px dashed #0070EB;
   width: 90%;
   margin: auto;
 }
 #team div {
-  width: 25%;
+  padding: 2%;
+  width: 100%;
+  justify-content: space-between;
 }
-#team div img {
+#team div .member {
+  padding: 5%;
+  margin: auto;
+  text-align: center;
+}
+#team div .member img {
   height: 200px;
   width: 200px;
+  border-radius: 10em;
+  padding: 3%;
 }

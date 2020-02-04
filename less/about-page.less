@@ -1,16 +1,32 @@
+h2{
+    font-size: 4em;
+    text-align: center;
+    padding:2%;
+}
+
 #team{
+    .change-layout(center, space-evenly);
     border: 5px dashed @blue-ribbon;
     width:90%;
     margin:auto;
 
     div{
+        padding: 2%;
+        width:100%;
+        justify-content: space-between;
         
-        width:25%;
-        img{ 
-            height: 200px;
-            width: 200px;
+
+        .member{
+            padding:5%;
+            margin:auto;
+            text-align: center;
+            img{ 
+                height: 200px;
+                width: 200px;
+                border-radius: 10em;
+                padding:3%;
+            }
+
         }
     }
-
-
 }
