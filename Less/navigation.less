@@ -1,12 +1,40 @@
 .navigation {
-    .change-layout(space-around, center);
-    border-bottom: 2px solid @teal;
-    padding:2% 0;
-
-
-    .div {
-        width:40%;
-        flex-direction: column;
+    .change-layout(center, center);
+    width: 90%;
+    margin:auto;
+  
+  div{
+      width: 40%;
+      height: 800px;
     }
+
+    .text{
+        nav{
+        padding-bottom: 25%;
+        margin-left: 35%;
+          font-size: 2em;
+    
+          a{
+            align-items: space-between;
+            padding: 3%;
+            color:@blue-ribbon;
+          }
+        }
+        h1{
+            color:@teal;
+            margin: 5% 0;
+            font-size: 5.5em;
+        }  
+        p{
+            color:@mine-shaft;
+            line-height: 2em;
+            padding: 2%;
+        }  
+}
+
+.image{
+    height: inherit;
+   width:50%;
+}
 
 }

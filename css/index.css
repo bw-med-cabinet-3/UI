@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Roboto';
+  width: 100%;
 }
 h1 {
   font-size: 4rem;
@@ -155,28 +156,51 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.7%;
 }
 header h2 {
   text-align: start;
   color: #FFFFFF;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-right: 1%;
+  padding: 0.7%;
 }
 header img {
   height: 45px;
 }
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #044A53;
-  padding: 2% 0;
+  width: 90%;
+  margin: auto;
 }
-.navigation .div {
+.navigation div {
   width: 40%;
-  flex-direction: column;
+  height: 800px;
+}
+.navigation .text nav {
+  padding-bottom: 25%;
+  margin-left: 35%;
+  font-size: 2em;
+}
+.navigation .text nav a {
+  align-items: space-between;
+  padding: 3%;
+  color: #0070EB;
+}
+.navigation .text h1 {
+  color: #044A53;
+  margin: 5% 0;
+  font-size: 5.5em;
+}
+.navigation .text p {
+  color: #323232;
+  line-height: 2em;
+  padding: 2%;
+}
+.navigation .image {
+  height: inherit;
+  width: 50%;
 }
 footer {
   width: 100%;
@@ -195,4 +219,36 @@ footer h2 {
 }
 footer img {
   height: 45px;
+}
+#main {
+  width: 75%;
+  font-weight: bold;
+}
+#interact {
+  width: 100%;
+  border: 1px solid black;
+}
+#interact #search {
+  border: 1px solid #044A53;
+  border-radius: 1em;
+  width: 40%;
+}
+#interact #button {
+  background-color: #044A53;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  width: 30%;
+  text-align: center;
+}
+#team {
+  border: 5px dashed #0070EB;
+  width: 90%;
+  margin: auto;
+}
+#team div {
+  width: 25%;
+}
+#team div img {
+  height: 200px;
+  width: 200px;
 }
