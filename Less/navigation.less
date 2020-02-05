@@ -3,6 +3,12 @@
   width: 90%;
   margin:auto;
 
+  @media @tablet{
+    flex-direction:row-reverse;
+    width:100%;
+    margin:0;
+  }
+
   @media @mobile{
     flex-direction:column;
     width:100%;
@@ -12,6 +18,11 @@
   div{
     width: 40%;
     height: 800px;
+
+    @media @tablet{
+      width:90%;
+      height:500px;
+    }
 
     @media @mobile{
       width:100%;
@@ -23,12 +34,16 @@
     @media @mobile{
       padding-top: 60%;
     }
-    
+
     nav{  
       padding-bottom: 25%;
       margin-left: 35%;
       font-size: 2em;
 
+      @media @tablet{
+        padding: 2%;
+      }
+      
       @media @mobile{
         margin:0;
         width:100%;
@@ -71,6 +86,10 @@
 .image{
     height: fit-content;
    width:50%;
+
+   @media @tablet{
+     display:none;
+   }
 
    @media @mobile{
     width:100%;

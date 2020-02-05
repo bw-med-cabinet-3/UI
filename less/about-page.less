@@ -3,12 +3,14 @@ h2{
     text-align: center;
     padding:2%;
 
+    @media @tablet{
+        padding-bottom: 5%;
+      }
+
     @media @mobile{
         padding-top: 60%;
         padding-bottom: 3%;
     }
-
-    
 }
 
 p{
@@ -20,6 +22,11 @@ p{
     border: 5px dashed @blue-ribbon;
     width:90%;
     margin:auto;
+
+    @media @tablet{
+        width:100%;
+        text-align:center;
+      }
 
     @media @mobile{
         flex-direction: column;
@@ -34,6 +41,11 @@ p{
             padding:5%;
             margin:auto;
             text-align: center;
+
+            @media @tablet{
+                padding: 10%;
+              }
+
             img{ 
                 height: 200px;
                 width: 200px;
