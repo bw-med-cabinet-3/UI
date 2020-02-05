@@ -174,38 +174,85 @@ header img {
   width: 90%;
   margin: auto;
 }
+@media (max-width:500px) {
+  .navigation {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+}
 .navigation div {
   width: 40%;
   height: 800px;
+}
+@media (max-width:500px) {
+  .navigation div {
+    width: 100%;
+    height: 500px;
+  }
 }
 .navigation .text nav {
   padding-bottom: 25%;
   margin-left: 35%;
   font-size: 2em;
 }
+@media (max-width:500px) {
+  .navigation .text nav {
+    margin: 0;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+  }
+}
 .navigation .text nav a {
   align-items: space-between;
+  width: 100%;
   padding: 3%;
   color: #0070EB;
+}
+@media (max-width:500px) {
+  .navigation .text nav a {
+    padding: 0;
+  }
 }
 .navigation .text h1 {
   color: #044A53;
   margin: 5% 0;
   font-size: 5.5em;
 }
+@media (max-width:500px) {
+  .navigation .text h1 {
+    font-size: 2.7em;
+    margin: 0;
+    padding-top: 5%;
+  }
+}
 .navigation .text p {
   color: #323232;
   line-height: 2em;
   padding: 2%;
 }
-.navigation .image {
+.image {
   height: inherit;
   width: 50%;
+}
+@media (max-width:500px) {
+  .image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 #main {
   width: 75%;
   font-weight: bold;
   margin-left: 5%;
+}
+@media (max-width:500px) {
+  #main {
+    margin: 2%;
+    padding: 5% 0;
+  }
 }
 #interact {
   width: 100%;
@@ -214,12 +261,27 @@ header img {
   justify-content: center;
   align-items: space-between;
 }
+@media (max-width:500px) {
+  #interact {
+    flex-direction: column;
+    width: 90%;
+    padding: 5% 0;
+    margin-top: auto;
+  }
+}
 #interact #search {
   border: 1px solid #044A53;
   border-radius: 0.5em;
   width: 70%;
   margin-right: 3%;
   color: #044A53;
+}
+@media (max-width:500px) {
+  #interact #search {
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+  }
 }
 #interact #button {
   color: #FFFFFF;
@@ -234,6 +296,12 @@ header img {
   align-items: center;
   text-align: center;
 }
+@media (max-width:500px) {
+  #interact #button {
+    width: 100%;
+    margin: 0;
+  }
+}
 #interact #button:hover {
   color: #FFFFFF;
   background-color: #01B5CD;
@@ -246,6 +314,12 @@ header img {
   justify-content: center;
   align-items: center;
 }
+@media (max-width:500px) {
+  #interact #button:hover {
+    width: 100%;
+    margin: 0;
+  }
+}
 #items {
   display: flex;
   justify-content: center;
@@ -254,12 +328,27 @@ header img {
   width: 90%;
   margin: auto;
 }
+@media (max-width:500px) {
+  #items {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
 #items div {
   padding: 5%;
   color: #044A53;
   margin: auto;
   text-align: center;
   width: 30%;
+}
+@media (max-width:500px) {
+  #items div {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }
 #items div h3 {
   padding: 3%;

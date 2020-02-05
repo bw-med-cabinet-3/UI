@@ -2,6 +2,11 @@
     width:75%;
     font-weight: bold;
     margin-left: 5%;;
+
+    @media @mobile{
+        margin:2%;
+        padding:5% 0;
+    }
 }
 
 #interact{
@@ -9,22 +14,43 @@
     height:6%;
     .change-layout(center, space-between);
 
+    @media @mobile{
+        flex-direction:column;
+        width:90%;
+        padding:5% 0;
+       margin-top: auto;
+    }
+
     #search{
-    border: 1px solid @teal;
-    border-radius: 0.5em;
-    width:70%;
-    margin-right: 3%;
-    color:@teal;
+        border: 1px solid @teal;
+        border-radius: 0.5em;
+        width:70%;
+        margin-right: 3%;
+        color:@teal;
+
+     @media @mobile{
+        width:100%;
+        margin:2% 0;
+        padding:0;
+      }
     }
 
     #button{
 //custom-btn(@color, @background,@size, @border, @radius, @pad, @wide)
     .custom-btn(@white, @teal, 1.8em, solid @hurricane, 0.5em, 0, 20%);  
     text-align: center;
+    @media @mobile{
+        width:100%;
+        margin:0;
+      }
     }
 
     #button:hover{
-    .custom-btn(@white, @cerulean,1.5em, solid @teal, 0.5em, 1% 0, 20%)
+    .custom-btn(@white, @cerulean,1.5em, solid @teal, 0.5em, 1% 0, 20%);
+    @media @mobile{
+        width:100%;
+       margin:0;
+      }
     }
 }
 
@@ -34,12 +60,25 @@
     width:90%;
     margin:auto;
 
+    @media @mobile{
+        flex-direction:column;
+        width:100%;
+        margin:0;
+        padding:0;
+      }
+
     div{
         padding:5%;
         color:@teal;
         margin:auto;
         text-align: center;
         width:30%;
+
+        @media @mobile{
+            width:100%;
+            margin:0;
+            text-align: center;
+          }
 
         h3{
             padding:3%;
