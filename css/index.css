@@ -202,48 +202,75 @@ header img {
   height: inherit;
   width: 50%;
 }
-footer {
-  width: 100%;
-  background-color: #044A53;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.7%;
-}
-footer h2 {
-  text-align: start;
-  color: #FFFFFF;
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding-right: 1%;
-}
-footer img {
-  height: 45px;
-}
 #main {
   width: 75%;
   font-weight: bold;
+  margin-left: 5%;
 }
 #interact {
   width: 100%;
-  border: 1px solid black;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
 }
 #interact #search {
   border: 1px solid #044A53;
-  border-radius: 1em;
-  width: 40%;
+  border-radius: 0.5em;
+  width: 70%;
+  margin-right: 3%;
+  color: #044A53;
 }
 #interact #button {
-  background-color: #044A53;
   color: #FFFFFF;
+  background-color: #044A53;
+  font-size: 1.8em;
+  border: 1px solid #918383;
   border-radius: 0.5em;
-  width: 30%;
+  padding: 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+#interact #button:hover {
+  color: #FFFFFF;
+  background-color: #01B5CD;
+  font-size: 1.5em;
+  border: 1px solid #044A53;
+  border-radius: 0.5em;
+  padding: 1% 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#items {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
+  padding: 8% 0;
+  width: 90%;
+  margin: auto;
+}
+#items div {
+  padding: 5%;
+  color: #044A53;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+}
+#items div h3 {
+  padding: 3%;
 }
 h2 {
   font-size: 4em;
   text-align: center;
   padding: 2%;
+}
+p {
+  font-size: 2em;
 }
 #team {
   display: flex;

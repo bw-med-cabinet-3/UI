@@ -1,23 +1,48 @@
 #main{
     width:75%;
     font-weight: bold;
+    margin-left: 5%;;
 }
 
 #interact{
     width:100%;
-    border:1px solid black;
+    height:6%;
+    .change-layout(center, space-between);
 
     #search{
     border: 1px solid @teal;
-    border-radius: 1em;
-    width: 40%;
+    border-radius: 0.5em;
+    width:70%;
+    margin-right: 3%;
+    color:@teal;
     }
 
     #button{
-    background-color: @teal;
-    color: @white;
-    border-radius: 0.5em;
-    width:30%;
+//custom-btn(@color, @background,@size, @border, @radius, @pad, @wide)
+    .custom-btn(@white, @teal, 1.8em, solid @hurricane, 0.5em, 0, 20%);  
     text-align: center;
+    }
+
+    #button:hover{
+    .custom-btn(@white, @cerulean,1.5em, solid @teal, 0.5em, 1% 0, 20%)
+    }
+}
+
+#items{
+    .change-layout(center, space-evenly);
+    padding: 8% 0;
+    width:90%;
+    margin:auto;
+
+    div{
+        padding:5%;
+        color:@teal;
+        margin:auto;
+        text-align: center;
+        width:30%;
+
+        h3{
+            padding:3%;
+        }
     }
 }
