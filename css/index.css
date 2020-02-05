@@ -363,6 +363,12 @@ h2 {
   text-align: center;
   padding: 2%;
 }
+@media (max-width:500px) {
+  h2 {
+    padding-top: 60%;
+    padding-bottom: 3%;
+  }
+}
 p {
   font-size: 2em;
 }
@@ -373,6 +379,11 @@ p {
   border: 5px dashed #0070EB;
   width: 90%;
   margin: auto;
+}
+@media (max-width:500px) {
+  #team {
+    flex-direction: column;
+  }
 }
 #team div {
   padding: 2%;
