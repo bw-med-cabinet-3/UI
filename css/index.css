@@ -191,6 +191,11 @@ header img {
     height: 500px;
   }
 }
+@media (max-width:500px) {
+  .navigation .text {
+    padding-top: 60%;
+  }
+}
 .navigation .text nav {
   padding-bottom: 25%;
   margin-left: 35%;
@@ -233,7 +238,7 @@ header img {
   padding: 2%;
 }
 .image {
-  height: inherit;
+  height: fit-content;
   width: 50%;
 }
 @media (max-width:500px) {
@@ -266,7 +271,7 @@ header img {
     flex-direction: column;
     width: 90%;
     padding: 5% 0;
-    margin-top: auto;
+    margin: auto;
   }
 }
 #interact #search {
