@@ -213,6 +213,11 @@ header .MC-logo p {
   font-size: 2rem;
   color: white;
 }
+footer {
+  text-align: center;
+  padding: 1%;
+  background: teal;
+}
 .container .top-page {
   display: flex;
   flex-direction: row;
@@ -220,7 +225,7 @@ header .MC-logo p {
 .container .top-page div {
   width: 100%;
 }
-.container .top-page div #Relief-btn {
+.container .top-page div #Relief-bg {
   text-align: center;
   margin: 4% auto;
   color: white;
@@ -262,6 +267,11 @@ header .MC-logo p {
   opacity: 0;
   transition: all ease 0.8s;
 }
-.container .top-page .logos .hidden-txt:hover {
+.container .top-page .logos:hover .hidden-txt {
   opacity: 1;
+}
+.container .copyright {
+  text-align: center;
+  padding: 1%;
+  background: teal;
 }

@@ -9,7 +9,7 @@
             width: 100%;
             
             
-            #Relief-btn{
+            #Relief-bg{
                 text-align:center;
                 margin: 4% auto;
                 color:white;
@@ -24,7 +24,7 @@
                 text-align:center;
                 font-size: 2rem;
             }
-        }
+        }//closes top-page
 
         .sign-up{
 
@@ -41,16 +41,17 @@
                 a{
                     color: white;
                     text-decoration: none;
-                }
+                }//closes a in p
 
-            }
+            }//closes p 
 
             p:hover{
                 background: teal; 
-            }
+            }// closes p:hover
             
-        }//closes sign-up
+        }//closes .sign-up
 
+    //Below is transition of opacity text in logos
         .logos{
             display:flex; 
             flex-direction:column; 
@@ -60,17 +61,27 @@
             .hidden-txt{
                 opacity: 0; 
                 transition: all ease 0.8s; 
-            }
+            }// closes text below images
 
-            .hidden-txt:hover{
-                opacity: 1;
-            }
-        }
+        }//closes logo
+
+        .logos:hover{
+
+            .hidden-txt{
+                opacity: 1; 
+            }//closes hidden.txt
+        }//closes hover on logo
+
+
+
     }//closes top page
 
+    .copyright{
+        text-align:center;
+        padding:1%;
+        background: teal;
+    }
+
+}//closes container
 
 
-
-
-
-}
