@@ -4,6 +4,9 @@
         display:flex; 
         flex-direction:row;
         
+        @media @mobile{
+            flex-direction: column;
+        }
 
         div{
             width: 100%;
@@ -18,13 +21,20 @@
                 background-color:#01B5CD ;
                 width:60%;
                 border-radius:12px;
+
+                @media @tablet{
+                    width:50%;
+                }
             }
 
             p{
                 text-align:center;
                 font-size: 2rem;
+                @media @tablet{
+                    font-size: 1.6rem;
+                }
             }
-        }//closes top-page
+        }//closes div
 
         .sign-up{
 
@@ -43,6 +53,9 @@
                     text-decoration: none;
                 }//closes a in p
 
+                @media @tablet{
+                    width:100%;
+                }
             }//closes p 
 
             p:hover{
@@ -61,6 +74,9 @@
             .hidden-txt{
                 opacity: 0; 
                 transition: all ease 0.8s; 
+                @media @tablet{
+                    opacity: 1;
+                }
             }// closes text below images
 
         }//closes logo
@@ -75,12 +91,6 @@
 
 
     }//closes top page
-
-    .copyright{
-        text-align:center;
-        padding:1%;
-        background: teal;
-    }
 
 }//closes container
 

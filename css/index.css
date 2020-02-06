@@ -217,10 +217,16 @@ footer {
   text-align: center;
   padding: 1%;
   background: teal;
+  color: white;
 }
 .container .top-page {
   display: flex;
   flex-direction: row;
+}
+@media (max-width:500px) {
+  .container .top-page {
+    flex-direction: column;
+  }
 }
 .container .top-page div {
   width: 100%;
@@ -235,9 +241,19 @@ footer {
   width: 60%;
   border-radius: 12px;
 }
+@media (max-width:800px) {
+  .container .top-page div #Relief-bg {
+    width: 50%;
+  }
+}
 .container .top-page div p {
   text-align: center;
   font-size: 2rem;
+}
+@media (max-width:800px) {
+  .container .top-page div p {
+    font-size: 1.6rem;
+  }
 }
 .container .top-page .sign-up {
   text-align: center;
@@ -254,6 +270,11 @@ footer {
   color: white;
   text-decoration: none;
 }
+@media (max-width:800px) {
+  .container .top-page .sign-up p {
+    width: 100%;
+  }
+}
 .container .top-page .sign-up p:hover {
   background: teal;
 }
@@ -267,11 +288,11 @@ footer {
   opacity: 0;
   transition: all ease 0.8s;
 }
+@media (max-width:800px) {
+  .container .top-page .logos .hidden-txt {
+    opacity: 1;
+  }
+}
 .container .top-page .logos:hover .hidden-txt {
   opacity: 1;
-}
-.container .copyright {
-  text-align: center;
-  padding: 1%;
-  background: teal;
 }
