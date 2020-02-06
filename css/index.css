@@ -1,0 +1,267 @@
+/* Primary color:
+#044A53 Teal blue
+
+Secondary colors(logo and icons):
+#1497AB logo blue
+#D9F9FD foam blue
+
+background colors:
+#FFFFFF white
+#F7F7F7 Alabaster1
+#FAFAFA Alabaster2
+#01B5CD Cerulean
+
+Text colors:
+#044A53 Teal blue
+#FFFFFF white
+#918383 Hurricane
+#323232 Mine shaft
+#0070EB blue ribbon
+#78070D Sativa burgundy
+#1000CE Indica blue
+#FAFF00 Hybrid yellow */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: teal;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+header div {
+  width: 50%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+header nav a:hover {
+  color: beige;
+}
+header .MC-logo {
+  display: flex;
+  align-items: center;
+}
+header .MC-logo p {
+  font-size: 2rem;
+  color: white;
+}
+.container .top-page {
+  display: flex;
+  flex-direction: row;
+}
+.container .top-page div {
+  width: 100%;
+}
+.container .top-page div #Relief-btn {
+  text-align: center;
+  margin: 4% auto;
+  color: white;
+  font-size: 2.2rem;
+  padding: 5%;
+  background-color: #01B5CD;
+  width: 60%;
+  border-radius: 12px;
+}
+.container .top-page div p {
+  text-align: center;
+  font-size: 2rem;
+}
+.container .top-page .sign-up {
+  text-align: center;
+}
+.container .top-page .sign-up p {
+  text-align: center;
+  margin: 4% auto;
+  background-color: #01B5CD;
+  width: 20%;
+  border-radius: 12px;
+  padding: 2%;
+}
+.container .top-page .sign-up p a {
+  color: white;
+  text-decoration: none;
+}
+.container .top-page .sign-up p:hover {
+  background: teal;
+}
+.container .top-page .logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
+}
+.container .top-page .logos .hidden-txt {
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+.container .top-page .logos .hidden-txt:hover {
+  opacity: 1;
+}
