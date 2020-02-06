@@ -1,0 +1,17 @@
+.change-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.custom-btn(@color, @background,@size, @border, @radius, @pad, @wide){
+    color: @color;
+    background-color: @background;
+    font-size: @size;
+    border: 1px @border;
+    border-radius: @radius;
+    padding:@pad;
+    width:@wide;
+   .change-layout(center, center)
+    
+}
