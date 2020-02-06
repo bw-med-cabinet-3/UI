@@ -1,0 +1,64 @@
+h2{
+    font-size: 4em;
+    text-align: center;
+    padding:2%;
+
+    @media @tablet{
+        padding-bottom: 5%;
+      }
+
+    @media @mobile{
+        padding-top: 60%;
+        padding-bottom: 3%;
+    }
+}
+
+p{
+    font-size: 2em;
+}
+
+#team{
+    .change-layout(center, space-evenly);
+    border: 5px dashed @blue-ribbon;
+    width:90%;
+    margin:auto;
+
+    @media @tablet{
+        width:100%;
+        text-align:center;
+      }
+
+    @media @mobile{
+        flex-direction: column;
+    }
+
+    div{
+        padding: 2%;
+        width:100%;
+        justify-content: space-between;
+
+        .member{
+            padding:5%;
+            margin:auto;
+            text-align: center;
+
+            h3{
+                @media @tablet{
+                    display:none;
+                }
+            }
+
+            @media @tablet{
+                padding: 10%;
+              }
+
+            img{ 
+                height: 200px;
+                width: 200px;
+                border-radius: 10em;
+                padding:3%;
+            }
+
+        }
+    }
+}
